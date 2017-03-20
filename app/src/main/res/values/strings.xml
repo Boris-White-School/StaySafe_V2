@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StaySafe</string>
+    <string name="Home_btn_dangerous">Kind of dangers</string>
+    <string name="Home_btn_avoid">How to avoid them</string>
+    <string name="Home_btn_tips">Quick tips</string>
+    <string name="home_dialog_choose">Choose the topics</string>
+    <string name="dialog_home_internet">Dangers on Internet</string>
+    <string name="dialog_home_realLife">Dangers in real life</string>
+</resources>
