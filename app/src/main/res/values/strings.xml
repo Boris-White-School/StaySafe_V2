@@ -6,4 +6,7 @@
     <string name="home_dialog_choose">Choose the topics</string>
     <string name="dialog_home_internet">Dangers on Internet</string>
     <string name="dialog_home_realLife">Dangers in real life</string>
+    <string name="logout">LOGOUT</string>
+    <string name="avoid_dangers_on_internet">Avoid Dangers on Internet</string>
+    <string name="avoid_dangers_in_real_life">Avoid Dangers in real life</string>
 </resources>

@@ -38,8 +38,7 @@ public class HomeActivity extends AppCompatActivity {
             case R.id.Home_btn_avoid:
                 Log.w(getLocalClassName(), "Home_btn_avoid");
 
-                // No activity yet
-                Toast.makeText(this, "No activity yet", Toast.LENGTH_SHORT).show();
+               chooseTopicDialog2();
                 break;
 
             case R.id.Home_btn_tips:
@@ -80,6 +79,18 @@ public class HomeActivity extends AppCompatActivity {
 
         Button internet = (Button) view.findViewById(R.id.dialog_home_btn_internet);
         Button realLife = (Button) view.findViewById(R.id.dialog_home_btn_realLife);
+        internet.setOnClickListener(new CustomOnClickListener());
+        realLife.setOnClickListener(new CustomOnClickListener());
+    }
+    private void chooseTopicDialog2() {
+        View view = View.inflate(this, R.layout.dialog_home_choose2, null);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this).setView(view);
+        dialog = builder.create();
+        dialog.show();
+
+        Button internet = (Button) view.findViewById(R.id.avoid_dialog_home_btn_internet);
+        Button realLife = (Button) view.findViewById(R.id.avoid_dialog_home_btn_realLife);
         internet.setOnClickListener(new CustomOnClickListener());
         realLife.setOnClickListener(new CustomOnClickListener());
     }
