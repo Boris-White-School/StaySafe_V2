@@ -60,6 +60,11 @@ public class HomeActivity extends AppCompatActivity {
                 // No activity yet
                 Toast.makeText(this, "No activity yet", Toast.LENGTH_SHORT).show();
                 break;
+
+            case R.id.logout:
+                Log.w(getLocalClassName(), "logout");
+                startActivity(new Intent(getBaseContext(), Login.class));
+                break;
         }
     }
 
