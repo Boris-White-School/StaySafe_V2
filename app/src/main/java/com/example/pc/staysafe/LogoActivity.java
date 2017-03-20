@@ -15,7 +15,7 @@ public class LogoActivity extends Activity {
         super.onCreate(icicle);
         setContentView(R.layout.activity_main);
 
-
+        //Add logo app later!
         ImageView Imgvw_spsoa= (ImageView)findViewById(R.id.imageView);
         Animation Anim_spsoalogo = AnimationUtils.loadAnimation(this, R.anim.welcome_sr);
         Imgvw_spsoa.startAnimation(Anim_spsoalogo);
